@@ -7,6 +7,8 @@ much I learned in the meanwhile.
 The code features Polish identifiers (despite interface language being English), little to no error checking,
 hardcoded constants and, the best of all, handwritten interface. That's right, I wasn't using any graphical
 layout editor, but rather changing widget positions manually, recompiling, and checking if it looks okay...
+The whole code, for "modularization" is split into two files. Nobody told me you can compile more than one
+`cpp` file together, so the main file just includes the other...
 
 Screenshot, as seen running in Wine under Linux:
 
