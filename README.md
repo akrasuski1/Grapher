@@ -1,16 +1,25 @@
-Grapher
-=======
+# Grapher
+
+This is one of my first ever graphical applications, written in 2013. 
+Finding this code in old backups from 6 years ago is quite embarassing... but also a reminder how
+much I learned in the meanwhile.
+
+The code features Polish identifiers (despite interface language being English), little to no error checking,
+hardcoded constants and, the best of all, handwritten interface. That's right, I wasn't using any graphical
+layout editor, but rather changing widget positions manually, recompiling, and checking if it looks okay...
+
+Screenshot, as seen running in Wine under Linux:
+
+![screenshot](Screenshot-11.png)
 
 Application designed to draw plots of functions and graphically solve differential equations.
 
 
 1. Installation
-----------------
 
 Simply download Grapher.exe and Grapher.exe.manifest and put them in one folder. From now on, to open the application, just open the Grapher.exe.
 
 2. Using
---------
 
 After opening, you already have three example functions plotted. To remove them, select them in Functions menu and click on *Remove*. 
 
@@ -27,12 +36,6 @@ In the coefficients boxes you can write: real numbers (such as 1, 4.5, -2.3e10),
 To change position of graph window, you can either: drag window using mouse, use buttons in bottom right corner, or manually write the position in boxes in bottom and apply settings using *Resize*.
 
 3. Known bugs
--------------
 
 - sometimes the graph window disappears (temporary fix: drag the window)
 - differential equations is still blank - not implemented yet
-
-4. Troubleshooting
-------------------
-
-You can always send feedback to akrasuski1@wp.pl. Thank you!
