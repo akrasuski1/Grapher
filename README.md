@@ -12,6 +12,8 @@ Screenshot, as seen running in Wine under Linux:
 
 ![screenshot](Screenshot-11.png)
 
+# Original README
+
 Application designed to draw plots of functions and graphically solve differential equations.
 
 
